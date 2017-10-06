@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+#include <iomanip>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main() {
+    
+    // Output pattern to console
+    cout << "   *" << endl;
+    cout << "  ***" << endl;
+    cout << " *****" << endl;
+    cout << "*******" << endl;
+    
     return 0;
 }
